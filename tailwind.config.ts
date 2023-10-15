@@ -13,8 +13,19 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        Saira: ['var(--font-Saira-Stencil-One)'],
+        Pathway: ['var(--font-Pathway-Gothic-One)'],
+        Kanit: ['var(--font-Kanit)'], // เพิ่มตรงนี้
+      },
+      colors: {
+        yellow: {
+          500: '#FEC106',
+        },
+      },
     },
   },
+
   plugins: [],
 }
 export default config
